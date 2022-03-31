@@ -63,3 +63,71 @@ function areatroCirculo(radio) {
 }
 
 console.groupEnd();
+
+// Aquí Interactuamos con el HTML
+
+// - Cuadrado - //
+
+// -------- PERIMETRO ------------
+
+function calcularPerimetroCuadrado() {
+  const input = document.getElementById("InputCuadrado");
+  const value = input.value;
+
+  const perimetro = perimetroCuadrado(value);
+  alert(perimetro);
+}
+
+// -------- AREA ------------
+
+function calcularAreaCuadrado() {
+  const input = document.getElementById("InputCuadrado");
+  const value = input.value;
+
+  const area = areaCuadrado(value);
+  alert(area);
+}
+
+// - Triangulo - //
+
+// -------- PERIMETRO ------------
+
+function calcularPerimetroTriangulo() {
+  const input = document.getElementById("InputTriangulo");
+  const value = input.value;
+
+  const perimetro = perimetroTriangulo(value);
+  alert(perimetro);
+}
+
+// -------- AREA ------------
+
+function calcularAreaTriangulo() {
+  const input = document.getElementById("InputTriangulo");
+  const value = input.value;
+
+  const area = areaTriangulo(value);
+  alert(area);
+}
+
+// - Circulo - //
+
+// -------- PERIMETRO ------------
+
+function calcularPerimetroCirculo() {
+  const input = document.getElementById("InputCirculo");
+  const value = input.value;
+
+  const perimetro = perimetroCirculo(value);
+  alert(perimetro);
+}
+
+// -------- AREA ------------
+
+function calcularAreaCirculo() {
+  const input = document.getElementById("InputCirculo");
+  const value = input.value;
+
+  const area = areatroCirculo(value);
+  alert(area);
+}
